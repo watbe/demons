@@ -1,0 +1,193 @@
+Level 0:
+
+	"To forget, one must first remember."
+	
+	- This is Clare.
+	- This is the house she grew up in. 
+	- She's creating memories right now.
+	- Unique memories.
+	- Memories that only she can see.
+	- But soon it will not be the same...
+	- ...because Clare has Alzheimer's Disease.
+	- This is her journey.
+	- This is the beginning of an end.
+
+Transition:
+	"Grandma!"
+	"Tell us about the time you went to the Swiss Alps!"
+	"Please, grandma?"
+
+Level 1:
+
+	"The Climb."
+
+	- Claire has lost her way in her memories.
+	- Help her tell her story by reaching the end.
+	- (rock fall)
+	- Cave in
+	- hole
+	- trap hole can't avoid
+
+Level 2: 
+
+	"The drop"
+
+	- No Prompts
+	- become more sparse and sparse
+
+Level 3:
+
+	"waiting for daylight"
+
+	- city
+	- no memories in sight
+	- night time
+	- unexpected transition
+
+Level 4:
+
+	"lost and found"
+
+	- still trapped
+	- closes eyes
+
+Level 5:
+
+
+Transition:
+	- Hey Gran!
+	- Can you tell us about the village you grew up in?
+	- Please granny?
+
+Level 5:
+	
+	Sepia old film represents creating and preserving memories
+	- (Child) Clare!
+	- 
+
+	CREDITS: http://soundbible.com/904-Rock-Slide.html
+	http://www.jamendo.com/en/download/track/98933/do
+
+Level 0:
+	
+	Instructions?
+
+Transition: 
+
+	70 years later...
+	Claire's house is the 6th house. Help her find it. 
+	Maybe visit some neighbours along the way?
+
+Level 1:
+
+	Press SPACE to enter doors (100,400)
+
+	1. Hi Claire! (325) 
+		Come by again some other time!
+
+	2. Mum, it's the old lady again. (570)
+		James, be polite!
+		Here, give her some fresh baking.
+	
+	3. Hey you old bag! (1280)
+		Good to see you're still walking!
+
+	4. Good to see you again Claire! (1765)
+		How are your grandchildren doing?
+
+	5. It's a mighty good evening tonight isn't it? (2010)
+
+	6. Grandma's back everyone! - next level (2535)
+	
+	7. Thanks for coming around, good to know you're still breathing. (3190)
+
+	8. Hi, we just moved in next door. (3790)
+		Nice to meet you Claire!
+
+Level 2:
+
+	Dementia affects the memory.
+
+	Her world starts falling apart.
+
+	Piece by piece.
+
+	Memory by memory.
+
+	Claire's memory grows more frail with every passing day.
+
+Level 3:
+
+	Press SPACE to enter doors
+
+	1. Is everything alright? 345
+		Here, warm up with a cuppa.
+	
+	2. Mum, Claire's here.  815
+		I think she's forgotten where she lives again.
+
+	3. Hi again Claire. 1200
+		I really don't have time to talk right now.
+
+	4. Still living and breathing I see. 1630
+
+	5. Nope, for the last time, you live further down the road. 1880
+
+	6. For heavens sake, it's 12am, what are you doing out so late Claire? 2340
+		You'd better get back to your place now, your family would be worried sick.
+
+	7. Claire! Where on earth have you been? 2820 
+		We've been worried sick about you.
+		I know it's not your fault, but try to let us know next time.
+
+	8. *Locked* 3715
+
+Level 4:
+
+	No prompts
+
+Level 5:
+
+	1. Oh it's you again. 400 
+		
+		Hey Claire. 
+		Glad you made it back.
+		Claire?
+		Do you remember us?
+		This is your granddaughter, Lisa.
+		Mum, she scares me.
+		I know sweetheart. 
+		But she wasn't always like this.
+
+		Demons.
+
+
+	2. Sorry you're not welcome here. 880 
+
+	3. Mum, she's scaring me... 1520 
+		Does she even know who we are?
+
+	4. For the last time, you don't live here. 1980 
+
+	5. Just go away, do you have any idea what the time is? 2410 
+
+	6. It's that bloody old woman again. 2815 *2 
+		Just tell her that we're busy.
+
+	7. I'm so sorry about what's happened. 3600 
+		... you don't remember who I am, do you?
+
+Level 6:
+
+	1. Alzheimer's Disease is a growing problem in aging populations. 3800
+	1. Dementia is one of its many forms. 3400
+	2. It is poorly understood. 3000
+	3. Claire is just one journey of many. 2600
+	4. However, for some suffers, some are able to recall early memories. 2200
+	5. Memories that have been locked away for years. 1800
+	6. The end might not be so bad after all. 1000
+
+BUGS:
+	- Left collision
+	- Fog/Rain
+	- Instructions
