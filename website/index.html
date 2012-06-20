@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-AU">
+<!--
+		This webpage was designed by Wayne Tsai.
+-->
+<head>
+	<title>demons - a forgetting experience</title>
+	<!--    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="Author" content="Wayne Tsai" />
+	<meta name="Description"
+		content="exploring the idea of forgetting by putting you into claire's view; a person with dementia." />
+	<meta name="Keywords"
+		content="art, Canberra ACT, forgetting, memory, dementia, Alzheimer’s, disease, java, applet, game, platformer, maze" />
+
+	<script src="scripts/jquery.js" type="text/javascript"></script>
+	<script src="scripts/demons.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles/style.css" />
+
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+	<div id="header" class="frame">
+		<h1>
+			<a href="index.html">demons</a>
+		</h1>
+	</div>
+
+	<div class="article frame">
+		<div id="introduction">
+			<img src="images/intro.png" alt="do you remember...?" />
+			<p>do you remember yesterday?</p>
+			<p>your friends' names?</p>
+			<p>where you live?</p>
+			<p>your birthday?</p>
+			<p>claire doesn't remember.</p>
+		</div>
+
+		<div id="start">
+			<a href="#" class="no-js"> <img src="images/start.png"
+				alt="this is her journey. begin the end." /> 
+				<span>this is her journey. begin the end. </span>
+			</a>
+		</div>
+
+		<div id="game">
+			<div id="applet">
+				<script type="text/javascript"
+					src="http://www.java.com/js/deployJava.js"></script>
+				<script type="text/javascript">
+					/*           */
+
+					var attributes = {
+						code : 'demons.class',
+						archive : 'java/demons.jar,java/gifAnimation.jar,java/jl1.0.jar,java/jsminim.jar,java/minim-spi.jar,java/minim.jar,java/mp3spi1.9.4.jar,java/tritonus_aos.jar,java/tritonus_share.jar,java/core.jar',
+						width : 900,
+						height : 555,
+					};
+					var parameters = {
+						image : 'loading.gif',
+						centerimage : 'true',
+					};
+					var version = '1.5';
+					deployJava.runApplet(attributes, parameters, version);
+
+					/*     */
+				</script>
+
+				<noscript>
+					<div>
+						<!--[if !IE]> -->
+						<object classid="java:demons.class"
+							type="application/x-java-applet"
+							archive="java/demons.jar,java/gifAnimation.jar,java/jl1.0.jar,java/jsminim.jar,java/minim-spi.jar,java/minim.jar,java/mp3spi1.9.4.jar,java/tritonus_aos.jar,java/tritonus_share.jar,java/core.jar"
+							width="900" height="555" standby="Loading Processing software...">
+
+							<param name="archive"
+								value="java/demons.jar,java/gifAnimation.jar,java/jl1.0.jar,java/jsminim.jar,java/minim-spi.jar,java/minim.jar,java/mp3spi1.9.4.jar,java/tritonus_aos.jar,java/tritonus_share.jar,java/core.jar" />
+
+							<param name="mayscript" value="true" />
+							<param name="scriptable" value="true" />
+
+							<param name="image" value="loading.gif" />
+							<param name="boxmessage" value="Loading Processing software..." />
+							<param name="boxbgcolor" value="#FFFFFF" />
+							<!--<![endif]-->
+
+							<object classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93"
+								codebase="http://java.sun.com/update/1.6.0/jinstall-6u20-windows-i586.cab"
+								width="900" height="555"
+								standby="Loading Processing software...">
+
+								<param name="code" value="demons" />
+								<param name="archive"
+									value="java/demons.jar,java/gifAnimation.jar,java/jl1.0.jar,java/jsminim.jar,java/minim-spi.jar,java/minim.jar,java/mp3spi1.9.4.jar,java/tritonus_aos.jar,java/tritonus_share.jar,java/core.jar" />
+
+								<param name="mayscript" value="true" />
+								<param name="scriptable" value="true" />
+
+								<param name="image" value="loading.gif" />
+								<param name="boxmessage" value="Loading Processing software..." />
+								<param name="boxbgcolor" value="#FFFFFF" />
+
+								<p>
+									<strong> This browser does not have a Java Plug-in. <br />
+										<a href="http://www.java.com/getjava"
+										title="Download Java Plug-in"> Get the latest Java Plug-in
+											here. </a>
+									</strong>
+								</p>
+
+							</object>
+
+							<!--[if !IE]> -->
+						</object>
+						<!--<![endif]-->
+
+					</div>
+				</noscript>
+			</div>
+			<div class="game footer">
+				<p>Press the LEFT and RIGHT arrow keys to move Claire. Press UP to jump.</p>
+				<p>If it isn't working, try clicking within the game to gain focus, or try <a href="http://liskov.anu.edu.au/~u5027622/index.html" title="reload page">reloading</a> the page.</p>
+				<p>The game is approximately 10MB so it may take some time to load.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--                         ========================================================== Endings ==  -->
+	<!--                                                                    - Navigational elements -   -->
+	<div class="footer frame">
+		<div>
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="about.html">about this project</a></li>
+				<li><a href="credits.html">acknowledgements</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--                                                                                - Footnotes -   -->
+
+	<!--                         =====================================================================  -->
+</body>
+
+</html>

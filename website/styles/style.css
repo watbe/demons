@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END CSS RESET */
+
+body {
+    color: #bbb; 
+    background: url("../images/bg.gif") 50% 0 scroll no-repeat #0a0a0a;
+    font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    line-height: 25px;
+    font-size: 12px;
+    text-shadow:0 0 3px #000;
+}
+
+.frame {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	outline: 0;
+}
+a:visited {
+	color: #fff;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+a img {
+	border:none;
+}
+a span {
+	display:none;
+}
+/* =================================================================================================== divisions */
+/* _____________________________________________________________________________________ headings */
+
+#header h1 a {
+	background: url("../images/title.png") no-repeat scroll 50% 0 transparent;
+    display: block;
+    height: 134px;
+    margin-left: 333px;
+    text-align: center;
+    text-indent: -9999px; /*hides actual text because of the image replacement. (for accessibility) */
+    width: 337px;
+}
+
+/* -------------------------------------------------------------------------- menu -- */
+
+
+/* _____________________________________________________________________________________ content */
+
+#introduction {
+	margin-left: 320px;
+}
+
+#introduction p,
+#start p {
+	text-indent: -9999px; /*hides actual text because of the image replacement. (for accessibility) */
+	height: 0;
+	width: 0;
+	margin: 0;
+}
+
+#start {
+	opacity: 1;
+	margin-left: 288px;
+}
+
+#start a {
+	opacity: 0.5;
+	outline: 0;
+}
+
+/* backup options for visitors not using javascript*/
+#start.no-js a:hover,
+#start.no-js a:focus /*accessibility*/
+{
+	opacity: 1;
+}
+
+#game {
+	opacity: 1;
+	width: 1000px;
+	height: 660px;
+	background: url("../images/java.png") no-repeat 50% 0 transparent;
+	position: relative;
+}
+#game .game.footer {
+	font-size: 9px;
+	margin-top: 42px;
+}
+#game .game.footer p {
+	margin: 0;
+	padding: 0;
+	line-height: 16px;
+}
+
+#applet {
+	height: 555px;
+	left: 50px;
+	position: relative;
+	top: 34px;
+	width: 900px;
+}
+
+#text p {
+	width: 500px;
+	margin: 30px auto;
+	text-align: justify;
+}
+
+.footer {
+	font-size: 1em;
+	padding: 30px 0 30px;
+	text-align: center;
+}
+
+.footer div {
+	margin-left: 313px;
+}
+
+.footer li {
+	list-style: none;
+}
+
+.footer li a {
+	float: left;
+	display: block;
+	margin-left: 28px;
+	color: #aaa !important;
+}
